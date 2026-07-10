@@ -8,6 +8,7 @@ venv/
 
 # Project data (never commit data into git!)
 data/
+*.parquet
 
 # OS / editor
 .DS_Store
