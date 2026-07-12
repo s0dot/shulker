@@ -7,13 +7,14 @@ from scratch to learn the internals of systems like Snowflake / Databricks
 
 ## Status
 early, learning in public\
-just a storage seam right now (save/load over Parquet, queried with DuckDB)
+simple storage interface complete
 
 ## Roadmap
-just beginning 🥹
+learning more!
 
 - [x] storage seam --> save/load over Parquet  <- we are here!
-- [ ] storage interface --> swap local disk <-> S3 without touching query code
+- [x] storage interface --> swap backends without touching query code
+- [ ] S3 backend --> same interface but data lives in the cloud!
 - [ ] table format --> snapshots, time travel, immutable files
 - [ ] catalog & ACID --> atomic commits, safe concurrent writers
 - [ ] query & ingestion --> the platform grows up
